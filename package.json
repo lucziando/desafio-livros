@@ -1,0 +1,10 @@
+{
+  "devDependencies": {
+    "sass-embedded": "^1.81.0",
+    "vite": "^6.0.1"
+  },
+  "dependencies": {
+    "@vitejs/plugin-react": "^4.3.4",
+    "react-router-dom": "^7.0.1"
+  }
+}
