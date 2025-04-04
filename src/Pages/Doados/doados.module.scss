@@ -5,13 +5,14 @@
     align-items: center;
     justify-content: space-around;
 }
-.Cards{
-    width: 85vh;
-    height: 100vh;
+.Cards{ 
+    min-height: 70vh; 
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
     gap: 10px;
+    align-items: center;
+    margin-bottom: 20px;
     article{
         border: solid 2px #005695;
         width: 245px;
@@ -20,7 +21,10 @@
         justify-content: space-evenly;
         align-items: center;
         flex-direction: column;
-        border-radius: 13px
+        border-radius: 13px;
+        h3{
+            text-align: center;
+        }
      }
 }
 .Img{
